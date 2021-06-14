@@ -162,3 +162,30 @@ background-color: aqua;
 .company-introduction{
     align-items: center;
 }
+/*  */
+
+.partners-list{
+    background-color: aqua;
+}
+
+.partners-selection-container{
+    align-items: center;
+}
+
+.partners-list-icons{
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    width: 50%;
+}
+
+.partners-list-names-wrapper{
+    width: 50%;
+}
+
+.partners-list-names-part{
+    width: 30%;
+}
+
+.partner-list-names-element{
+    background-color: blue;
+}
