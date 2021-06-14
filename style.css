@@ -7,7 +7,7 @@ body{
     margin: 0px;
 }
 
-p, span{
+p, span, li, button{
     font-size: 62%;
 }
 
@@ -15,6 +15,10 @@ i{
     margin-right: 1vw;
 }
 
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
 .header{
     background-color: white;
     width: 100%;
@@ -63,7 +67,7 @@ aside{
     flex-direction: column;
 }
 
-.yellow-icon{
+.yellow-icon, .yellow-button{
     background-color: #F59C00;
 }
 
@@ -166,17 +170,33 @@ aside{
 /*  */
 .services-container{
     flex-wrap: wrap;
-    background-color: aqua;
+    justify-content: space-between;
 }
 
 .services-element{
-    width: 45%;
+    width: 49%;
     background-color: white;
-    border: 1px solid gray;
+    margin-bottom: 2vh;
+    border: none;
 }
 
 .services-element-introduction{
     width: 50%;
+    background-color: #F4F3F4;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-left: 2vw;
+    padding-bottom: 2vh;
+}
+
+.services-image{
+    width: 50%;
+}
+
+.services-button{
+    background-color: #F59C00;
+    width: 50%;
+    border: none;
 }
 
 /*  */
