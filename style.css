@@ -63,21 +63,68 @@ aside{
     flex-direction: column;
 }
 
+.yellow-icon{
+    background-color: #F59C00;
+}
+
+.white-icon{
+    color: white;
+}
+
 /* Introduction section  */
 
+.contact-container{
+    align-items: center;
+}
+
 .introduction-section{
-    background-color: grey;   
+    background-color: #008480;   
     height: 30%;
+    color: white;
 }
 
 .header-menu-section{
     height: 70%;
     align-items: center;
-    background-color: blueviolet;
+    background-color: #4F596D;
+}
+
+.header-menu-section-part{
+    width: 30%;
+}
+
+.menu-and-title-container{
+    justify-content: left;
+    align-items: center;
+    padding-left: 2vw;
+}
+
+.logo{
+    width: 50%;
+    height: 50%;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.search-input{
+    width: 100%;
 }
 
 .header-menu-link{
-background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header-menu-links-button{
+    background-color: #F59C00;
+    height: 100%;
 }
 
 /*  */
