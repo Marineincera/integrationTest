@@ -158,6 +158,9 @@ aside{
     width: 100%;
     background-color: grey;
     justify-content: center;
+    align-items: center;
+    color: white;
+    height: 4vh;
 }
 
 /*  */
