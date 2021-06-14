@@ -83,6 +83,20 @@ aside{
     color: grey;
 }
 
+.grey-text{
+    color: gray;
+}
+
+.border-orange-button{
+    border-top: 1px solid #F59C00;
+    border-left: 1px solid #F59C00;
+    border-bottom: 1px solid #F59C00;
+    border-right: none;
+    border-radius: 30px;
+    height: 25%;
+    background-color: white;
+}
+
 /* Introduction section  */
 
 .contact-container{
@@ -235,16 +249,34 @@ aside{
     border-bottom: 2px solid #F59C00;
 }
 
-/*  */
 .products-card{
-    background-color: blue;
+    border: 1px solid grey;
+    padding-left: 1vw;
+    width: 18%;
+    height: 80%;
 }
 
-.products-card-header{
-    background-color: yellow;
+.image-selected-products{
+    width: 40%;
+    height: 40%;
+    align-self: center;
 }
+
 .products-card-footer{
-    background-color: pink;
+    align-items: center;
+}
+
+.selected-products-dispo{
+    color: green;
+}
+
+.products-card-header-reduction-case{
+    background-color: #65ACF9;
+    border-radius: 30px;
+    align-items: center;
+    font-size: 2vh;
+    height: 3vh;
+    justify-content: center;
 }
 
 /*  */
