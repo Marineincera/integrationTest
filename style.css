@@ -111,3 +111,19 @@ background-color: aqua;
     background-color: grey;
     justify-content: center;
 }
+
+/*  */
+.services-container{
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+.services-element{
+    width: 45%;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.services-element-introduction{
+    width: 50%;
+}
