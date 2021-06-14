@@ -1,5 +1,5 @@
 body{
-    width: 100vw;
+    width: 98vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -39,6 +39,8 @@ aside{
 .section, .container{
     display: flex;
 }
+
+
 
 .between-style{
     justify-content: space-between;
@@ -128,7 +130,29 @@ background-color: aqua;
 }
 
 /*  */
+.offers-section-images{
+    align-items: center;
+}
+
 .offers-image{
     width: 45%;
     height: 20%;
+}
+
+/*  */
+
+.products-selected-header{
+    align-items: center;
+}
+
+/*  */
+.products-card{
+    background-color: blue;
+}
+
+.products-card-header{
+    background-color: yellow;
+}
+.products-card-footer{
+    background-color: pink;
 }
