@@ -38,6 +38,7 @@ aside{
 
 .section, .container{
     display: flex;
+
 }
 
 
@@ -188,4 +189,30 @@ background-color: aqua;
 
 .partner-list-names-element{
     background-color: blue;
+}
+
+/*  */
+
+.footer-header-element{
+    background-color: green;
+    align-items: center;
+    width: 15%;
+    text-align: center;
+}
+
+.footer-main, .footer-main-footer{
+    background-color: grey;
+}
+
+.footer-main-part{
+    width: 25%;
+    align-items: center;
+}
+
+.footer-main-footer{
+    border-top: 1px solid white;
+}
+
+.footer-main-footer-links{
+    width: 60%;
 }
