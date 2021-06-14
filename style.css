@@ -200,13 +200,15 @@ aside{
 }
 
 /*  */
-.offers-section-images{
-    align-items: center;
-}
+
+/* .offers-section{
+    justify-content: baseline;
+} */
+
 
 .offers-image{
-    width: 45%;
-    height: 20%;
+    width: 50%;
+    margin-right: 0.4vw;
 }
 
 /*  */
