@@ -8,10 +8,12 @@ body{
     margin: 0px;
 }
 
-header{
+.header{
     background-color: white;
-    height: 20vh;
     width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
 }
 
 main{
@@ -27,8 +29,49 @@ aside{
     height: 100%;
 }
 
-.container{
+.main-container{
     background-color: blue;
     width: 70%;
     height: 100%;
 }
+
+/*  Elements  */
+
+.section, .container{
+    display: flex;
+}
+
+.between-style{
+    justify-content: space-between;
+}
+
+.around-style{
+    justify-content: space-around;
+}
+
+.bold{
+    font-weight: 200;
+}
+
+.column-direction{
+    flex-direction: column;
+}
+
+/* Introduction section  */
+
+.introduction-section{
+    background-color: grey;   
+    height: 30%;
+}
+
+.header-menu-section{
+    height: 70%;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.header-menu-link{
+background-color: aqua;
+}
+
+/*  */
