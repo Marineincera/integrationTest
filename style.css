@@ -331,19 +331,19 @@ aside{
 /*  */
 
 .footer-header-element{
-    background-color: green;
+    color: #F59C00;
     align-items: center;
     width: 15%;
     text-align: center;
 }
 
 .footer-main, .footer-main-footer{
-    background-color: grey;
+    background-color: #4F596D;
+    color: white;
 }
 
 .footer-main-part{
     width: 25%;
-    align-items: center;
 }
 
 .footer-main-footer{
