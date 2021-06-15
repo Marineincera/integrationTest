@@ -87,6 +87,13 @@ aside{
     color: gray;
 }
 
+.yellow-button{
+    background-color: #F59C00;
+    width: 40%;
+    border: none;
+    padding: 1vh ;
+}
+
 .border-orange-button{
     border-top: 1px solid #F59C00;
     border-left: 1px solid #F59C00;
@@ -215,11 +222,11 @@ aside{
     width: 50%;
 }
 
-.services-button{
+/* .services-button{
     background-color: #F59C00;
     width: 50%;
     border: none;
-}
+} */
 
 /*  */
 
@@ -283,6 +290,12 @@ aside{
 
 .company-introduction{
     align-items: center;
+}
+
+
+
+.advertising-image{
+    width: 60%;
 }
 /*  */
 
