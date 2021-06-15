@@ -295,12 +295,11 @@ aside{
 
 
 .advertising-image{
-    width: 60%;
+    width: 100%;
 }
 /*  */
 
 .partners-list{
-    background-color: aqua;
 }
 
 .partners-selection-container{
@@ -309,8 +308,13 @@ aside{
 
 .partners-list-icons{
     flex-wrap: wrap;
-    background-color: blueviolet;
-    width: 50%;
+    width: 40%;
+}
+
+.partner-image{
+    width: 30%;
+    height: 30%;
+    padding-right: 2vw;
 }
 
 .partners-list-names-wrapper{
@@ -322,7 +326,6 @@ aside{
 }
 
 .partner-list-names-element{
-    background-color: blue;
 }
 
 /*  */
