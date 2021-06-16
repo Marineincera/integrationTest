@@ -5,4 +5,14 @@ for( var i=0; i < menuHorizontalRectanglesSmall.length; i++){
     menuHorizontalRectanglesSmall[i].style.backgroundColor = menuHorizontalRectanglesSmallColors[i]
 }
 
-console.log(menuHorizontalRectanglesSmall)
+
+  $(document).ready(function(){
+    $('.slider').slick({
+        lazyLoad: 'ondemand',
+        slidesToShow: 2,
+        infinite: false,
+        dots:true
+    //   setting-name: setting-value
+    });
+  });
+      
