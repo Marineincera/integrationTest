@@ -43,7 +43,13 @@
     align-items: center;
 }
 
-
+.group-5 p, .fa-phone-volume{
+    color: #FFFFFF;
+    font-family: Arimo;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 18px;
+}
 
 .atoms-colors-black {
     height: 98px;
@@ -83,6 +89,9 @@
     background-color: #FFFFFF;
     box-shadow: inset 0 1px 13px 0 rgba(0,0,0,0.2);
     align-items: center;
+    padding-left: 11.02px ;
+    padding-top: 17px;
+    padding-bottom: 14px;
 }
 
 .rechercher-un-produi {
@@ -381,9 +390,16 @@
 
 /*  */
 
-.slider{
+.group-33{
+    height: 615.85px;
+    width: 1583px;
     margin-top: 197.69px;
     margin-left: 29px;
+
+}
+
+.slider{
+
 }
 
 /*  */
@@ -416,4 +432,4 @@
     display: none;
 }
 
-/*  */
+
