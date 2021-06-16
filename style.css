@@ -1,6 +1,5 @@
 .body-container{
     width: 1920px;
-    height: 3177px;
     display: grid ;
     grid-template-columns: auto 1610px;
     grid-template-areas: 
