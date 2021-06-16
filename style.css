@@ -204,6 +204,41 @@
 
 /*  */
 
+.stacked-goup-rectangle {
+    height: 40px;
+    width: 1610px;
+    background-color: #FFFFFF;
+    box-shadow: 36px 14px 14px 0 rgba(0,0,0,0.15);
+}
+
+.stacked-goup-rectange-small{
+    width: 329px;
+    height: 28px;
+    border-right: 1px solid #4F596D;;
+    justify-content: center;
+}
+
+.stacked-icon{
+    height: 24px;
+    width: 24px;
+    color: #4F596D;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.stacked-goup-rectange-small p {
+    height: 19px;
+    color: #4F596D;
+    font-family: Arimo;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+/*  */
+
 
 .main-container{
     grid-area: main-container;
