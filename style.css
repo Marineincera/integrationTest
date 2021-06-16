@@ -152,13 +152,58 @@
 .shopping-cart-1 {
     height: 26px;
     width: 28px;
+}
+
+/*    */
+
+.menu-horizontal {
+    height: 617px;
+    width: 556px;
+    grid-area: aside;
+    position: absolute;
+}
+
+.rectangle-6248 {
+    height: 617px;
+    width: 310px;
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.1);
   }
 
-/*  */
-.aside{
-    grid-area: aside;
-    background-color: green;
+.menu-horizontal-hidden {
+    z-index : -2;
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.1);
+    height: 617px;
+    width: 310px;
 }
+
+.menu-horizontal-rectangle{
+    width: 307px;
+    height: 50px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.1);
+}
+
+
+.menu-horizontal-rectangle-small {
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.1);
+}
+
+.menu-horizontal-rectangle p {
+    margin-left: 12px;
+    height: 19px;
+    width: 221px;
+    color: #000000;
+    font-family: Arimo;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.38px;
+    line-height: 19px;
+}
+
+/*  */
+
 
 .main-container{
     grid-area: main-container;
@@ -185,6 +230,9 @@
 .white-icon{
     color: white;
 }
+
+/*  */
+
 
 /* body{
     width: 98vw;
