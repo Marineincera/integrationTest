@@ -241,7 +241,7 @@
 .stacked-goup-rectange-small{
     width: 329px;
     height: 28px;
-    border-right: 1px solid #4F596D;;
+    border-right: 1px solid #4F596D;
     justify-content: center;
     align-items: center;
 }
@@ -398,9 +398,6 @@
 
 }
 
-.slider{
-
-}
 
 /*  */
 .main-container{

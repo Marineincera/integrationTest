@@ -32,57 +32,52 @@ var aside = document.getElementById("aside");
 var menu = document.getElementById("menu")
 
 
-  // display
 
-
-
-  cylindres.addEventListener("mouseenter", function () {
-      selection1.classList.remove("hidden")
-      aside.style.zIndex = 2;
-  })
+cylindres.addEventListener("mouseenter", function () {
+    selection1.classList.remove("hidden")
+    aside.style.zIndex = 2;
+})
   
-  selection1.addEventListener("mouseenter", function () {
-      if(!selection2.classList.contains("hidden")){
-          selection2.classList.add("hidden")
-      }
-      if(!selection3.classList.contains("hidden")){
-          selection3.classList.add("hidden")
-      }
+selection1.addEventListener("mouseenter", function () {
+    if(!selection2.classList.contains("hidden")){
+        selection2.classList.add("hidden")
+    }
+    if(!selection3.classList.contains("hidden")){
+        selection3.classList.add("hidden")
+    }  
+})
   
-  })
+ebauches.addEventListener("mouseenter", function () {
+    aside.style.zIndex = 4;
+    if(selection2.classList.contains("hidden")){
+       selection2.classList.remove("hidden")
+    }
+})
   
-  ebauches.addEventListener("mouseenter", function () {
-      aside.style.zIndex = 4;
-      if(selection2.classList.contains("hidden")){
-          selection2.classList.remove("hidden")
-      }
-  })
+assa.addEventListener("mouseenter", function () {
+    aside.style.zIndex = 2;
+    if(selection3.classList.contains("hidden")){
+       selection3.classList.remove("hidden")
+    }else{
+       selection3.classList.add("hidden")
+    }
+})
   
-  assa.addEventListener("mouseenter", function () {
-      aside.style.zIndex = 2;
-      if(selection3.classList.contains("hidden")){
-          selection3.classList.remove("hidden")
-      }else{
-          selection3.classList.add("hidden")
-      }
-  })
+selection3.addEventListener("mouseenter", function () {
+    selection3.classList.remove("hidden")
+})
   
-  selection3.addEventListener("mouseenter", function () {
-      selection3.classList.remove("hidden")
-  })
-  
-  document.getElementById("aside").addEventListener("mouseleave", function () {
-      console.log("sorti");
-      if(!selection3.classList.contains("hidden")){
-          selection3.classList.add("hidden")
-      }
-      if(!selection2.classList.contains("hidden")){
-          selection2.classList.add("hidden")
-      }
-      if(!selection1.classList.contains("hidden")){
-          selection1.classList.add("hidden")
-      }
-  })
+document.getElementById("aside").addEventListener("mouseleave", function () {
+    if(!selection3.classList.contains("hidden")){
+        selection3.classList.add("hidden")
+    }
+    if(!selection2.classList.contains("hidden")){
+        selection2.classList.add("hidden")
+    }
+    if(!selection1.classList.contains("hidden")){
+        selection1.classList.add("hidden")
+    }
+})
 
 
   
