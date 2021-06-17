@@ -283,13 +283,12 @@
 
 .group-22-rectangle-small {
     height: 22px;
-    width: 267.62px;
+    width: 330px;
     align-items: center;
 }
 
 .group-22-rectangle-small p {
     height: 16px;
-    width: 237px;
     color: #FFFFFF;
     font-family: Arimo;
     font-size: 14px;
@@ -302,7 +301,6 @@
     width: 20.62px;
     color: #FFFFFF;
     font-size: 14px;
-    margin-right: 10.01px;
     margin-top: 8px;
 }
 
@@ -358,6 +356,22 @@
     font-weight: bold;
     letter-spacing: -0.48px;
     line-height: 35px;
+}
+
+.group-7-rectangle-small span{
+    color: #000000;
+    font-family: Arimo;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: -0.26px;
+    line-height: 18px;
+    margin-bottom: 0px;
+}
+
+.services-text{
+    height: 72px;
+    width: 324px;
 }
 
 .yellow-button{
