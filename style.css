@@ -413,6 +413,17 @@
 
 }
 
+.les-meilleures-offre{
+    height: 28px;
+    width: 462px;
+    color: #000000;
+    font-family: Arimo;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -0.58px;
+    line-height: 28px;
+}
+
 
 /*  */
 .main-container{
