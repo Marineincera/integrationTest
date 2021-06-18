@@ -48,7 +48,7 @@ selection1.addEventListener("mouseenter", function () {
 })
   
 ebauches.addEventListener("mouseenter", function () {
-    aside.style.zIndex = 4;
+    aside.style.zIndex = 2;
     if(selection2.classList.contains("hidden")){
        selection2.classList.remove("hidden")
     }
